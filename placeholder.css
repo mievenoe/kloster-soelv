@@ -1,0 +1,64 @@
+
+
+@import url("https://use.typekit.net/uqz8agc.css");
+@import url("https://use.typekit.net/uqz8agc.css");
+@import url("https://use.typekit.net/uqz8agc.css");
+@import url("https://use.typekit.net/uqz8agc.css");
+
+:root {
+	/* farver */
+	--rodbrun: #5f351f;
+	--rodbrun2: #591d00;
+	--brun2: #3a1300;
+	--morkebrun: #311000;
+	--morkebrun2: #290d00;
+
+	--lyseebrun1: #a37157;
+	--lyseebrun2: #9d6446;
+	--lyseebrun3: #91583c;
+	--lyseebrun5: #b9907b;
+	--lyseebrun6: #d4bbac;
+
+	--white: #ffffff;
+	--white2: #fbfbfa;
+
+	--baggrund1: #e6d6cc;
+
+	--gron: #2f3f2d;
+	--lysegron: #425040;
+	--morkegron: #182716;
+	
+	/* fonte */
+	--over: ambroise-std, serif;
+	--brod: montserrat, sans-serif;
+}
+
+/* -------- reset css -------- */
+*,
+:after,
+:before {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+/*________ info tekst top_________*/
+
+.infoteksttop p {
+    font-size: 1.5vw;
+    position: absolute;
+    margin-top: 9vw;
+    margin-left: 3vw;
+}
+
+/*________ placeholder_________*/
+
+.placeholder img {
+    width: 100%;
+    height: auto;
+}
+
+#byenimg {
+    margin-top: 5vw;
+}

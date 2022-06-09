@@ -1,0 +1,185 @@
+
+
+@import url("https://use.typekit.net/uqz8agc.css");
+@import url("https://use.typekit.net/uqz8agc.css");
+@import url("https://use.typekit.net/uqz8agc.css");
+@import url("https://use.typekit.net/uqz8agc.css");
+
+:root {
+	/* farver */
+	--rodbrun: #5f351f;
+	--rodbrun2: #591d00;
+	--brun2: #3a1300;
+	--morkebrun: #311000;
+	--morkebrun2: #290d00;
+
+	--lyseebrun1: #a37157;
+	--lyseebrun2: #9d6446;
+	--lyseebrun3: #91583c;
+	--lyseebrun5: #b9907b;
+	--lyseebrun6: #d4bbac;
+
+	--white: #ffffff;
+	--white2: #fbfbfa;
+
+	--baggrund1: #e6d6cc;
+
+	--gron: #2f3f2d;
+	--lysegron: #425040;
+	--morkegron: #182716;
+	
+	/* fonte */
+	--over: ambroise-std, serif;
+	--brod: montserrat, sans-serif;
+}
+
+/* -------- reset css -------- */
+*,
+:after,
+:before {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+/*________ Ring i siden_________*/
+
+.ringside2{
+	
+	right: 0;
+	margin-left: 95vw;
+	background-color: var(--rodbrun2);
+	width: 6vw;
+	height: 20vw;
+	
+	z-index: 7;
+	margin-top: 40vw;
+	right: 0;
+	
+	border-radius: 1vw 0vw 0vw 1vw;
+
+	color: var(--white2);
+    margin-bottom: 15vw;
+	
+}
+
+#teletop2 {
+	
+	transform: rotate(90deg);
+
+	position: absolute;
+	font-family: var(--brod);
+	font-size: 1.6vw;
+	font-weight: 400;
+	text-align: center;
+
+	
+	z-index: 10;
+	
+	margin-left: 88.7vw;
+	margin-top: 49vw;
+
+	width: 18vw;
+	color: var(--white2);
+    
+
+	
+
+}
+
+#telehref2  {	
+	
+
+	text-decoration: none;
+	color: var(--white2);
+	padding-left: 0.3vw;
+
+
+	
+}
+
+#telehref2:hover {
+	text-decoration: underline;
+}
+
+
+
+/*________ 404 indhold start_________*/
+
+.fejlbox {
+    background-color: var(--lyseebrun2);
+    width: 31vw;
+    height: 33vw;
+    position: absolute;
+    z-index: 3;
+
+    top: 0;
+    margin-top: 10vw;
+    margin-left: 6vw;
+}
+
+.fejlbox h2 {
+    font-size: 14vw;
+    color: var(--white2);
+    width: 24vw;
+    height: 15vw;
+    top: 0;
+    margin-left: 3.3vw;
+}
+
+.denneside {
+    background-color: var(--white2);
+    height: 10vw;
+    width: 73vw;
+    top: 0;
+    position: absolute;
+    margin-top: 30vw;
+    margin-left: 20vw;
+    z-index: 7;
+}
+
+.denneside h4 {
+    font-size: 5.3vw;
+    color: var(--brun2);
+    margin-top: 1.7vw;
+}
+
+.langtekst {
+    width: 60vw;
+    top: 0;
+    z-index: 10;
+    
+}
+
+.langtekst p {
+    font-size: 2.5vw;
+    font-weight: 700;
+    color: var(--rodbrun);
+position: absolute;
+top: 0;
+    text-align: left;
+}
+
+#langp1 {
+    margin-top: 48vw;
+    margin-left: 8vw;
+}
+
+#langp2 {
+    margin-top: 60vw;
+    margin-left: 8vw;
+    
+}
+
+#pilknap {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    margin-top: 62vw;
+    margin-left: 64vw;
+
+    width: 5vw;
+    height: auto;
+}
+
